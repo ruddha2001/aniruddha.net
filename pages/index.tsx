@@ -19,7 +19,7 @@ export default function Index() {
       </p>
       <p className="w-full md:w-1/2 px-5 mx-auto text-xl text-center mt-5">
         Hello! I see that you have found my portfolio. This one is still under
-        construction, but you can definitely check my LinkedIn an GitHub
+        construction, but you can definitely check my LinkedIn and GitHub
         profiles to get a basic idea about me.
       </p>
       <p

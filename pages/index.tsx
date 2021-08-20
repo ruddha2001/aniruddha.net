@@ -40,6 +40,16 @@ export default function Index() {
       >
         <FontAwesomeIcon icon={faLinkedin} /> ruddha2001
       </p>
+      <br />
+      <br />
+      <button
+        className="block mx-auto bg-primary px-4 py-2 rounded"
+        onClick={() => {
+          window.open("/Aniruddha%20Chatterjee%20Resume.pdf");
+        }}
+      >
+        Download Resume
+      </button>
     </>
   );
 }

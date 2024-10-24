@@ -5,6 +5,7 @@ import Navbar from "./components/navbar";
 
 const pt_serif = PT_Serif({
   weight: ["400", "700"],
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {

@@ -5,16 +5,29 @@ import Button from "./button";
 export default function Landing() {
   return (
     <div className="bg-primary min-w-full min-h-screen" id="landing">
-      <div className="flex flex-row">
-        <div className="basis-1/2 pt-32">
-          <Image src={"waves.svg"} width={650} height={100} alt="waves" />
-          <p className="text-7xl italic tracking-wider leading-relaxed pt-10 pr-36 text-right">
+      <div className="flex flex-col md:flex-row">
+        <div className="basis-full md:basis-1/2 pt-2 md:pt-32">
+          <Image
+            src={"waves.svg"}
+            width={650}
+            height={100}
+            alt="waves"
+            className="hidden md:inline-block"
+          />
+          <p className="text-5xl md:text-7xl italic tracking-wider leading-relaxed pt-2 md:pt-10 pr-14 md:pr-36 text-center md:text-right">
             &ldquo;Where is my <br />
             <span className="font-bold">coffeeeee???&rdquo;</span>
           </p>
+          <Image
+            src={"waves.svg"}
+            width={300}
+            height={100}
+            alt="waves"
+            className="md:hidden"
+          />
         </div>
-        <div className="basis-1/2">
-          <p className="text-2xl tracking-wide text-center pt-80 leading-relaxed px-36">
+        <div className="basis-full md:basis-1/2">
+          <p className="text-2xl tracking-wide text-center pt-10 md:pt-80 leading-relaxed px-5 md:px-36">
             Hey! Didn&apos;t see you there!
             <br />
             <br />

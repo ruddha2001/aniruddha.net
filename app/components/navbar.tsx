@@ -11,21 +11,18 @@ export default function Navbar() {
   ];
   return (
     <div className="flex min-w-full sticky top-0 bg-white items-center justify-between">
-      <div className="py-1 pl-5 w-full items-center flex">
+      <div className="py-2 md:py-1 pl-1 md:pl-5 w-full items-center flex">
         <a href="#">
-          <Image
-            src="/logo.svg"
-            width={75}
-            height={75}
-            alt="AC"
-            className="inline-block"
-          />
+          <Image src="/logo.svg" width={75} height={75} alt="AC" />
         </a>
-        <a className="inline text-3xl pl-3 tracking-wider pb-2" href="#">
+        <a
+          className="inline text-xl md:text-3xl pl-3 tracking-wider md:pb-2"
+          href="#"
+        >
           Aniruddha Chatterjee
         </a>
       </div>
-      <div className="pr-3 text-xl">
+      <div className="pr-3 text-xl hidden md:block">
         {menuItems.map((menuItem, index) => {
           return (
             <a
@@ -38,7 +35,7 @@ export default function Navbar() {
           );
         })}
       </div>
-      <div className="pr-5 text-2xl">
+      <div className="pr-5 text-xl md:text-2xl">
         <Button
           buttonText="Resume"
           className={"inline text-nowrap w-fit"}

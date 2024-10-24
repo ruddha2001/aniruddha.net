@@ -14,7 +14,7 @@ export default function Landing() {
             alt="waves"
             className="hidden md:inline-block"
           />
-          <p className="text-5xl md:text-7xl italic tracking-wider leading-relaxed pt-2 md:pt-10 pr-14 md:pr-36 text-center md:text-right">
+          <p className="text-5xl md:text-7xl italic tracking-wider leading-relaxed pt-2 md:pt-10 pr-8 md:pr-36 text-center md:text-right">
             &ldquo;Where is my <br />
             <span className="font-bold">coffeeeee???&rdquo;</span>
           </p>

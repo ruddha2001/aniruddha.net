@@ -27,7 +27,7 @@ export default function Landing() {
           />
         </div>
         <div className="basis-full md:basis-1/2">
-          <p className="text-2xl tracking-wide text-center pt-10 md:pt-80 leading-relaxed px-5 md:px-36">
+          <p className="text-xl md:text-2xl tracking-wide text-center pt-10 md:pt-80 leading-snug md:leading-relaxed px-5 md:px-36 pb-10 lg:pb-0">
             Hey! Didn&apos;t see you there!
             <br />
             <br />

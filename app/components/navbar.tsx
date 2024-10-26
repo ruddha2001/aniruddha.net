@@ -5,12 +5,12 @@ import Button from "./button";
 export default function Navbar() {
   const menuItems = [
     { display: "About Me", anchor: "#about-me" },
-    { display: "Experiences", anchor: "#about-me" },
-    { display: "Projects", anchor: "#about-me" },
-    { display: "Let's Talk", anchor: "#about-me" },
+    { display: "Experiences", anchor: "#experiences" },
+    { display: "Projects", anchor: "#experiences" },
+    { display: "Let's Talk", anchor: "#experiences" },
   ];
   return (
-    <div className="flex min-w-full sticky top-0 bg-white items-center justify-between">
+    <div className="flex min-w-full sticky top-0 bg-white items-center justify-between z-20">
       <div className="py-2 md:py-1 pl-1 md:pl-5 w-full items-center flex">
         <a href="#">
           <Image src="/logo.svg" width={75} height={75} alt="AC" />

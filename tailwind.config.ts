@@ -14,6 +14,18 @@ const config: Config = {
         primary: "#FFD600",
         secondary: "#FF5C00",
       },
+      fontSize: {
+        aboutMeLarge: "31rem",
+      },
+      height: {
+        aboutMeLarge: "30rem",
+      },
+      spacing: {
+        aboutMeExtra: "22rem",
+      },
+      listStyleImage: {
+        checkmark: 'url("/checkmark.svg")',
+      },
     },
   },
   plugins: [],

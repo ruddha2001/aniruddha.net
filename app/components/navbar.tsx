@@ -10,7 +10,7 @@ export default function Navbar() {
     { display: "Let's Talk", anchor: "#about-me" },
   ];
   return (
-    <div className="flex min-w-full sticky top-0 bg-white items-center justify-between">
+    <div className="flex min-w-full sticky top-0 bg-white items-center justify-between z-20">
       <div className="py-2 md:py-1 pl-1 md:pl-5 w-full items-center flex">
         <a href="#">
           <Image src="/logo.svg" width={75} height={75} alt="AC" />
